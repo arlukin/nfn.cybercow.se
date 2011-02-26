@@ -1,0 +1,55 @@
+<?php
+include('GlobalDebug.php');
+include('GlobalFunction.php');
+
+	$dbConfig = array(
+		'foMaster' 				=> 	array
+		(
+			array('localhost', 'arlukin_nfn', 'ferdnand', 'arlukin_nfn')
+		)
+	);
+
+	define ('IMAGEURL', '/Images');
+
+	define ('ERRORLOGPATH',  '/opt/disk1/docs/Develop/wwwrootWebCustomers/');
+
+	// Full sökväg till logfil som används av executeOnDb.
+	define ('ERRORLOGFILE',  ERRORLOGPATH.'/nfnError.html');
+
+	// Skriver ut explain satser hit.
+	define ('SQLLOGFILE',  ERRORLOGPATH.'/nfnExecuteOnDbLog.sql');
+
+	// Den email adress som Register Company skickar mail ifrån.
+	define ('INFOMAIL', 'ngaufu@cybercow.se');
+
+	// TYPE
+	define ('T_PASSES',  		1);
+	define ('T_SPINS',  		2);
+	define ('T_BOUNCES',  	3);
+	define ('T_STOPS', 			4);
+	define ('T_STRIKES',  	5);
+	define ('T_BLOCKS',  		6);
+	define ('T_TWIRLS', 		7);
+	define ('T_DOUBLES',  	8);
+	define ('T_MISC',  			9);
+	define ('T_COMBOS',	  	10);
+	define ('T_FORMS',  		11);
+	define ('T_FREEFORMS',	12);
+
+	// DIFFICULTY
+	define ('D_GRASSHOPPER',  1);
+	define ('D_BEGINNER',  		2);
+	define ('D_INTERMEDIATE', 3);
+	define ('D_MASTER',  			4);
+	define ('D_GODLIKE',  		5);
+
+	// USER
+	define ('U_MASTERPO',  		1);
+	define ('U_GIGANTE', 2);
+
+
+	function writeCSS()
+	{
+		echo('<LINK rel="stylesheet" type="text/css" href="/Include/Style.css" title="Style">');
+	}
+?>

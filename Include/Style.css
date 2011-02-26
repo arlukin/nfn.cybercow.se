@@ -1,0 +1,143 @@
+td, body {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 10pt;
+	color: #3F3D3D;
+}
+
+H1 {	
+	font-size : 20px;	
+	margin-bottom: 3;
+}
+H2 {		
+	font-size : 17px;
+	margin-top: 0px;	
+	margin-bottom: 0;		
+}
+
+
+A:link { 
+	font-family: verdana, tahoma, arial, helvetica; 
+	text-decoration: none 
+	font-size: 10pt; 
+}
+A:visited { 
+	font-family: verdana, tahoma, arial, helvetica; 	
+	text-decoration: none 
+	font-size: 10pt; 
+}
+
+.cssLinkLabel {
+	font-size: 8pt;	
+}
+.cssTableCaption  {	
+	font-weight: bold;
+	font-size : 10pt;	
+}
+
+.cssErrorMsg   {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 12pt;
+	color: Red;
+	font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+H3{
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	font-weight: bold;
+	margin-top : 0px;
+	margin-bottom : 0px;
+} 
+H4{
+	font-family: Verdana, Geneva, Arial;
+	font-size: 7pt;
+	font-weight: bold;
+	margin-top : 0px;
+	margin-bottom : 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+	margin-top: 4px;	
+	margin-left:10px;	
+}
+
+
+
+
+
+
+.cssPageCaption  {
+	font-family: Verdana, Geneva, Arial;
+	color: #4d598b;
+	font-weight: bold;
+	font-size : 14pt;	
+}
+
+.cssLinkLabel {
+	font-size: 8pt;	
+}
+
+.cssLabel   {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 10pt;
+	color: Black;
+	font-weight: bold
+}
+.cssFotnot   {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	color: Black;
+}
+.cssInputTextLabel {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 10pt;
+	color: Black;
+}
+.cssInputText   {
+	font-family : Verdana, Geneva, Arial;
+	font-size : 10pt;
+}
+.cssTableRow {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 10pt;
+	color: Black;
+	background-color : #FFFFFF;
+}
+.cssPageChanger {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 10pt;
+	color: Black;
+	font-weight: bold;
+	background-color : #dbdbdb;
+	text-align : right;
+}
+.cssInfoMsg {
+	font-family: Verdana, Geneva, Arial;
+	font-size: 8pt;
+	color: blue;
+	font-weight: bold
+}
